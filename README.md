@@ -7,7 +7,7 @@
 ###### The smallest heading
 
 (Syntax)
-Bold--- (** ** or __ __	)
+Bold--- (** ** or __ __	)Ex: **This is bold text**	
 
 Quoting text
 Text that is not a quote
@@ -55,8 +55,39 @@ Creating a table
 | git diff | Show file differences that haven't been staged |
 
 
+---------------------------------------------
+
+## Run
+--Command Line
+prerequisites
+- .NET SDK
+- SQL Server
+- Node
+- Angular CLI
+**Steps**
+1. Open directory source\Web\Frontend in command line and execute npm i.
+2. Open directory source\Web in command line and execute dotnet run.
+3. Open https://localhost:8090.
+
+Visual Studio Code
+Prerequisites
+- .NET SDK
+- SQL Server
+- Node
+- Angular CLI
+- Visual Studio Code
+- C# Extension
+
+**Steps**
+Open directory source\Web\Frontend in command line and execute npm i.
+Open source directory in Visual Studio Code.
+Press F5.
 
 
 
-
-
+Docker
+Prerequisites
+Docker
+**Steps**
+- Execute docker compose up --build -d in root directory.
+- Open http://localhost:8090.
